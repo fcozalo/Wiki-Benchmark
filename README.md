@@ -8,17 +8,22 @@
 
 ## Descripción del proyecto
 
-Este proyecto consiste en implementar el algoritmo de ordenamiento **Shellsort** en Python.
+Este proyecto implementa el algoritmo de ordenamiento **Shellsort** en Python.
 
-El programa lee un archivo llamado `datos.txt`, el cual contiene números enteros. Después permite elegir si los números se quieren ordenar de **menor a mayor** o de **mayor a menor**.
+El programa lee un archivo llamado `datos.txt`, ordena los números usando Shellsort, mide el tiempo de ejecución en milisegundos y guarda el resultado en un archivo llamado `datos_ordenados.txt`.
 
-También mide el tiempo que tarda el algoritmo en ordenar los datos en **milisegundos**, verifica que el ordenamiento se haya realizado correctamente y guarda el resultado en un archivo llamado `datos_ordenados.txt`.
+También permite elegir si los números se ordenan:
+
+1. De menor a mayor.
+2. De mayor a menor.
 
 ---
 
-## Código con comentarios claros
+## Análisis de complejidad
 
-El archivo principal del proyecto es:
+La complejidad de Shellsort depende de la secuencia de saltos utilizada.
+
+En este programa se utiliza una secuencia sencilla, donde el salto se divide entre 2 en cada vuelta:
 
 ```text
-main.py
+n/2, n/4, n/8, ..., 1
