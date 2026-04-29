@@ -2,7 +2,7 @@
 
 ## Autor
 
-Francisco García
+Francisco Gonzalo García Kumul
 
 ---
 
@@ -76,5 +76,3 @@ Cuando el salto llega a 1, el algoritmo funciona parecido a Insertion Sort, pero
 |---|---|---|
 | Insertion Sort | Es fácil de entender e implementar | Es lento con listas grandes |
 | Shellsort | Es más rápido que Insertion Sort en muchos casos | Su rendimiento depende de la secuencia de saltos |
-
-En conclusión, Shellsort es una mejora sobre Insertion Sort porque permite mover los elementos a distancias mayores desde el inicio, reduciendo la cantidad de movimientos necesarios al final del ordenamiento.
